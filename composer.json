@@ -1,0 +1,23 @@
+{
+    "name": "simplesurance/phpstan-rules",
+    "description": "Custom PHPStan rules",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Jose Pedro Saraiva",
+            "email": "js@simplesurance.de"
+        }
+    ],
+    "require": {
+        "phpstan/phpstan-doctrine": "^0.11.6",
+        "phpstan/phpstan-phpunit": "^0.11.2",
+        "phpstan/phpstan-symfony": "^0.11.6",
+        "slam/phpstan-extensions": "^3.6"
+    },
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true
+    }
+}
