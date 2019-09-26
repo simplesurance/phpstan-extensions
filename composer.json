@@ -1,6 +1,6 @@
 {
-    "name": "simplesurance/phpstan-rules",
-    "description": "Custom PHPStan rules",
+    "name": "simplesurance/phpstan-extensions",
+    "description": "Custom PHPStan exntensions and rules",
     "type": "library",
     "authors": [
         {
@@ -9,10 +9,14 @@
         }
     ],
     "require": {
-        "phpstan/phpstan-doctrine": "^0.11.6",
         "phpstan/phpstan-phpunit": "^0.11.2",
         "phpstan/phpstan-symfony": "^0.11.6",
         "slam/phpstan-extensions": "^3.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "simplesurance\\PHPStan\\": "src/"
+        }
     },
     "config": {
         "preferred-install": {

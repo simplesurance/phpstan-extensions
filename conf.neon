@@ -1,0 +1,11 @@
+services:
+    -
+        class: simplesurance\PHPStan\Rules\ClassConstantVisibilityRule
+        tags:
+            - phpstan.rules.rule
+
+includes:
+    - /composer/vendor/phpstan/phpstan-phpunit/extension.neon
+    - /composer/vendor/phpstan/phpstan-phpunit/rules.neon
+    - /composer/vendor/phpstan/phpstan-symfony/extension.neon
+    - /composer/vendor/slam/phpstan-extensions/conf/slam-rules.neon
