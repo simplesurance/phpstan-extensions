@@ -1,6 +1,6 @@
 {
     "name": "simplesurance/phpstan-extensions",
-    "description": "Custom PHPStan exntensions and rules",
+    "description": "Custom PHPStan extensions and rules",
     "type": "library",
     "authors": [
         {
