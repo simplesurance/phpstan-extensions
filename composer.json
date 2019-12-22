@@ -9,9 +9,9 @@
         }
     ],
     "require": {
-        "phpstan/phpstan-phpunit": "^0.11",
-        "phpstan/phpstan-symfony": "^0.11",
-        "slam/phpstan-extensions": "^3.6"
+        "phpstan/phpstan-phpunit": "^0.11 || ^0.12",
+        "phpstan/phpstan-symfony": "^0.11 || ^0.12",
+        "slam/phpstan-extensions": "^3.0 || ^4.0"
     },
     "autoload": {
         "psr-4": {
