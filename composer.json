@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "phpstan-beberlei-assert": "^1.0",
+        "phpstan/phpstan-beberlei-assert": "^1.0",
         "phpstan/phpstan-phpunit": "^0.11 || ^0.12 || ^1.0",
         "phpstan/phpstan-symfony": "^0.11 || ^0.12 || ^1.0",
         "slam/phpstan-extensions": "^3.0 || ^4.0 || ^5.0 || ^6.0"
