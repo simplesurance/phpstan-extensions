@@ -8,4 +8,5 @@ includes:
     - ../../phpstan/phpstan-phpunit/extension.neon
     - ../../phpstan/phpstan-phpunit/rules.neon
     - ../../phpstan/phpstan-symfony/extension.neon
+    - ../../phpstan/phpstan-symfony/rules.neon
     - ../../slam/phpstan-extensions/conf/slam-rules.neon
