@@ -8,7 +8,7 @@
             "email": "js@simplesurance.de"
         }
     ],
-    "require-dev": {
+    "require": {
         "phpstan/phpstan-beberlei-assert": "^1.0",
         "phpstan/phpstan-doctrine": "^1.3",
         "phpstan/phpstan-phpunit": "^0.11 || ^0.12 || ^1.0",
