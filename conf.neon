@@ -1,9 +1,3 @@
-services:
-    -
-        class: simplesurance\PHPStan\Rules\ClassConstantVisibilityRule
-        tags:
-            - phpstan.rules.rule
-
 includes:
     - ../../phpstan/phpstan-phpunit/extension.neon
     - ../../phpstan/phpstan-phpunit/rules.neon
